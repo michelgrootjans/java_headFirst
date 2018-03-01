@@ -11,10 +11,12 @@ public class MallardDuckTest {
     public void quack() {
         assertThat(new MallardDuck().quack(), is("Quack!"));
     }
+
     @Test
     public void swim() {
         assertThat(new MallardDuck().swim(), is("Splish splash ..."));
     }
+
     @Test
     public void display() {
         assertThat(new MallardDuck().display(), is("I'm a mallard duck"));
