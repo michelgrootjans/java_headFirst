@@ -1,4 +1,4 @@
-package headfirst.duck;
+package headfirst.ducks;
 
 public abstract class Duck {
     public String quack() {

@@ -1,5 +1,6 @@
 package headfirst.duck;
 
+import headfirst.ducks.MallardDuck;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
