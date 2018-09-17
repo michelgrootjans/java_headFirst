@@ -19,6 +19,6 @@ public class RedheadDuckTest {
 
     @Test
     public void display() {
-        assertThat(new RedheadDuck().display(), is("I'm a mallard duck"));
+        assertThat(new RedheadDuck().display(), is("I'm a redhead duck"));
     }
 }
